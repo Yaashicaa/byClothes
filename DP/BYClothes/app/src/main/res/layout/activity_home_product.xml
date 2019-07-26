@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeProduct">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome User"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        />
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/flipper_IMG_ID"
+        android:layout_gravity="center_horizontal"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_Relative_Layout">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/men_IMG_ID"
+            android:src="@drawable/men_a"
+            android:layout_marginLeft="40dp"
+            android:onClick="displayMen"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/women_IMG_ID"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/women_a"
+            android:layout_toRightOf="@id/men_IMG_ID"
+            android:onClick="displayWomen"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/children_IMG_ID"
+            android:layout_below="@id/men_IMG_ID"
+            android:src="@drawable/child_a"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:onClick="displayChildren"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/fancy_IMG_ID"
+            android:layout_below="@id/women_IMG_ID"
+            android:layout_toRightOf="@id/children_IMG_ID"
+            android:src="@drawable/fancy_a"
+            android:onClick="displayFancy"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

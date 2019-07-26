@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="User Name"
+        android:background="@drawable/inputs"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/username_ET_ID"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Phone Number"
+        android:background="@drawable/inputs"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/phone_ET_ID"
+        android:layout_below="@id/username_ET_ID"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Mail id"
+        android:background="@drawable/inputs"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/gmail_ET_ID"
+        android:layout_below="@id/phone_ET_ID"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/inputs"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/password_ET_ID"
+        android:layout_below="@id/gmail_ET_ID"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:background="@drawable/buttons"
+        android:layout_below="@id/password_ET_ID"
+        android:layout_gravity="center"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/create_acc_BTN_ID"
+        android:onClick="createAccount"
+        />
+
+</RelativeLayout>

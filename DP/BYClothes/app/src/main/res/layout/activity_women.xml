@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Women">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WOMEN"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="200dp"
+        android:id="@+id/w_dress_A"
+        android:src="@drawable/w_a"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/w_dress_B"
+        android:layout_toRightOf="@id/w_dress_A"
+        android:src="@drawable/w_c"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/w_dress_C"
+        android:layout_below="@id/w_dress_A"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/w_d"
+        />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/w_dress_d"
+        android:layout_below="@id/w_dress_B"
+        android:layout_toRightOf="@id/w_dress_C"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/w_b"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "616507082955",
+    "firebase_url": "https://byclothes-e4be0.firebaseio.com",
+    "project_id": "byclothes-e4be0",
+    "storage_bucket": "byclothes-e4be0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616507082955:android:de77fc272d5852da",
+        "android_client_info": {
+          "package_name": "com.example.byclothes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616507082955-po7j81njrbe14bujfpdhop2ts6ltq9ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.byclothes",
+            "certificate_hash": "740e0e967b78030c0b59157a73fc678093978060"
+          }
+        },
+        {
+          "client_id": "616507082955-4chbmr4dc32uitfj0sah03gtfedng6lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQQ6_pFE4tGFHxqD9nZggPPMxbD_j6Gi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616507082955-4chbmr4dc32uitfj0sah03gtfedng6lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
